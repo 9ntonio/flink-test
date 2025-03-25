@@ -18,8 +18,8 @@ importers:
         specifier: ^16.2.0
         version: 16.2.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.20))(@types/react@18.3.20)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       contentful:
-        specifier: ^10.6.21
-        version: 10.15.2
+        specifier: ^11.0.0
+        version: 11.5.11
       gsap:
         specifier: ^3.12.7
         version: 3.12.7
@@ -3035,8 +3035,8 @@ packages:
     resolution: {integrity: sha512-VTY1hZGh29yspBeveJ62cuDf+cw9Iq/NcKWBdNHjTq8hvgxz+E19+Pej3LW/02o98+D0XcKfcPYXIpm4lHY+eg==}
     engines: {node: '>=4.7.2'}
 
-  contentful-sdk-core@8.3.2:
-    resolution: {integrity: sha512-L2LNWRXb1/5RLpLemCoP2Lzz6211xyE63GXh2nVXekvM4Dnswo+9N2D6JmWTne9zq89Izo88vOGAzzIAxb4Ukw==}
+  contentful-sdk-core@9.2.0:
+    resolution: {integrity: sha512-cUvHbC2u8ouJHhG3tofQhUc0FAmM/QBcalYjiczMtFKrR77BW+eSPcPg+A9DQlhIP0UGcQ/knXxoJpBvrERXTA==}
     engines: {node: '>=18'}
 
   contentful-typescript-codegen@3.4.0:
@@ -3050,10 +3050,9 @@ packages:
       ts-node:
         optional: true
 
-  contentful@10.15.2:
-    resolution: {integrity: sha512-JJ+qFzxDtbQ4FfPdRF01OVFagy2ZGDHKakgsLTIj2sdnCRa6sAgTMW+jmbMkDX0B8nDRbUng6A7inRLRdLxHcw==}
+  contentful@11.5.11:
+    resolution: {integrity: sha512-aM0wDMou5TuyDTBQaEZ+CxCGqQcaYfBLeFk94RFDeY7vbn+YEG5NNIkIj24+nTk0uJI+TXxOTttL86CGEN99hw==}
     engines: {node: '>=18'}
-    deprecated: Unintentional release of version.
 
   convert-source-map@1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
@@ -3605,6 +3604,9 @@ packages:
 
   fast-copy@2.1.7:
     resolution: {integrity: sha512-ozrGwyuCTAy7YgFCua8rmqmytECYk/JYAMXcswOcm0qvGoE3tPb7ivBeIHTOK2DiapBhDZgacIhzhQIKU5TCfA==}
+
+  fast-copy@3.0.2:
+    resolution: {integrity: sha512-dl0O9Vhju8IrcLndv2eU4ldt1ftXMqqfgN4H1cpmGV7P6jeB9FwpN9a2c8DPGE1Ys88rNUJVYDHq73CGAGOPfQ==}
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
@@ -4499,12 +4501,6 @@ packages:
   lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
 
-  lodash.isplainobject@4.0.6:
-    resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
-
-  lodash.isstring@4.0.1:
-    resolution: {integrity: sha512-0wJxfxH1wgO3GrbuP+dTTk7op+6L41QCXbGINEmD+ny/G/eCqGzxyCsh7159S+mgDDcoarnBw6PC1PS5+wUGgw==}
-
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
@@ -4845,9 +4841,9 @@ packages:
     resolution: {integrity: sha512-wPrq66Llhl7/4AGC6I+cqxT07LhXvWL08LNXz1fENOw0Ap4sRZZ/gZpTTJ5jpurzzzfS2W/Ge9BY3LgLjCShcw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  p-throttle@4.1.1:
-    resolution: {integrity: sha512-TuU8Ato+pRTPJoDzYD4s7ocJYcNSEZRvlxoq3hcPI2kZDZ49IQ1Wkj7/gDJc3X7XiEAAvRGtDzdXJI0tC3IL1g==}
-    engines: {node: '>=10'}
+  p-throttle@6.2.0:
+    resolution: {integrity: sha512-NCKkOVj6PZa6NiTmfvGilDdf6vO1rFCD3KDnkHko8dTOtkpk4cSR/VTAhhLMG9aiQ7/A9HYgEDNmxzf6hxzR3g==}
+    engines: {node: '>=18'}
 
   p-try@2.2.0:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
@@ -9549,13 +9545,15 @@ snapshots:
     dependencies:
       fast-copy: 2.1.7
 
-  contentful-sdk-core@8.3.2:
+  contentful-sdk-core@9.2.0:
     dependencies:
-      fast-copy: 2.1.7
-      lodash.isplainobject: 4.0.6
-      lodash.isstring: 4.0.1
-      p-throttle: 4.1.1
+      fast-copy: 3.0.2
+      lodash: 4.17.21
+      p-throttle: 6.2.0
+      process: 0.11.10
       qs: 6.14.0
+    optionalDependencies:
+      '@rollup/rollup-linux-x64-gnu': 4.37.0
 
   contentful-typescript-codegen@3.4.0(prettier@3.5.3):
     dependencies:
@@ -9564,13 +9562,13 @@ snapshots:
       meow: 9.0.0
       prettier: 3.5.3
 
-  contentful@10.15.2:
+  contentful@11.5.11:
     dependencies:
       '@contentful/content-source-maps': 0.11.10
       '@contentful/rich-text-types': 16.8.5
       axios: 1.8.4
       contentful-resolve-response: 1.9.2
-      contentful-sdk-core: 8.3.2
+      contentful-sdk-core: 9.2.0
       json-stringify-safe: 5.0.1
       type-fest: 4.38.0
     transitivePeerDependencies:
@@ -10343,6 +10341,8 @@ snapshots:
       jest-util: 29.7.0
 
   fast-copy@2.1.7: {}
+
+  fast-copy@3.0.2: {}
 
   fast-deep-equal@3.1.3: {}
 
@@ -11469,10 +11469,6 @@ snapshots:
 
   lodash.debounce@4.0.8: {}
 
-  lodash.isplainobject@4.0.6: {}
-
-  lodash.isstring@4.0.1: {}
-
   lodash.merge@4.6.2: {}
 
   lodash@4.17.21: {}
@@ -11864,7 +11860,7 @@ snapshots:
     dependencies:
       p-limit: 4.0.0
 
-  p-throttle@4.1.1: {}
+  p-throttle@6.2.0: {}
 
   p-try@2.2.0: {}
 

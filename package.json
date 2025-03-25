@@ -22,7 +22,7 @@
     "@million/lint": "^0.0.73",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
-    "contentful": "^10.6.21",
+    "contentful": "^11.0.0",
     "gsap": "^3.12.7",
     "million": "^2.6.4",
     "next": "14.1.0",
