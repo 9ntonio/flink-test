@@ -1,1 +1,10 @@
-import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport App from '@/pages/index';\nimport '@/styles/globals.css';\n\nReactDOM.createRoot(document.getElementById('root')!).render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from '@/pages/index';
+import '@/styles/globals.css';
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

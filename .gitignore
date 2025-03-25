@@ -43,3 +43,6 @@ next-env.d.ts
 
 # Generated types
 /@types/generated
+
+# Misc.
+_ex_response.json
