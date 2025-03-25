@@ -25,7 +25,7 @@
     "contentful": "^10.6.21",
     "gsap": "^3.12.7",
     "million": "^2.6.4",
-    "next": "14.1.0",
+    "next": "14.2.25",
     "next-sitemap": "^4.2.3",
     "react": "18.3.0",
     "react-dom": "18.3.0"
