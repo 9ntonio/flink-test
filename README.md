@@ -29,13 +29,6 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Environment Setup
-
-Copy the `.env.local.example` file to `.env.local` and fill in your Contentful credentials:
-
-```bash
-cp .env.local.example .env.local
-```
 
 ## Available Scripts
 
@@ -46,5 +39,3 @@ cp .env.local.example .env.local
 - `pnpm test` - Run Jest tests
 - `pnpm storybook` - Start Storybook server
 - `pnpm generate-types` - Generate TypeScript types from Contentful
-- `pnpm vite:dev` - Run development server with Vite
-- `pnpm vite:build` - Build for production with Vite
