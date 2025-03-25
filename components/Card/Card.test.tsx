@@ -12,24 +12,25 @@ describe('Card', () => {
   });
 
   it('applies the card class', () => {
-    render(<Card>Content</Card>);
-    const card = screen.getByText('Content').parentElement;
+    const { container } = render(<Card>Content</Card>);
+    const card = container.firstChild;
     expect(card).toHaveClass('card');
   });
 
   it('applies additional classes when provided', () => {
-    render(<Card className="custom-class">Content</Card>);
-    const card = screen.getByText('Content').parentElement;
+    const { container } = render(<Card className="custom-class">Content</Card>);
+    const card = container.firstChild;
+    expect(card).toHaveClass('card');
     expect(card).toHaveClass('custom-class');
   });
 
   it('calls onClick handler when clicked', () => {
     const handleClick = jest.fn();
     render(<Card onClick={handleClick}>Click me</Card>);
-    
+
     const card = screen.getByRole('button', { name: /Click me/i });
     fireEvent.click(card);
-    
+
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 

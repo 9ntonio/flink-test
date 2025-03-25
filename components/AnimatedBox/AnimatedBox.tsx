@@ -1,57 +1,54 @@
-import React, { useState } from 'react';
-import { useAnimation } from '@glaze/react';
+import React, { useRef, useEffect } from 'react';
+import { gsap } from 'gsap';
 
-export interface AnimatedBoxProps {
-  /**
-   * Animation name to use from glaze.config.js
-   */
-  animation?: string;
-  /**
-   * Content to display inside the box
-   */
-  children: React.ReactNode;
-  /**
-   * Additional classes to apply to the box
-   */
-  className?: string;
+interface AnimatedBoxProps {
+  delay?: number;
+  duration?: number;
 }
 
-/**
- * AnimatedBox component demonstrating Glaze animations
- */
-export const AnimatedBox: React.FC<AnimatedBoxProps> = ({
-  animation = 'fadeIn',
-  children,
-  className = '',
+const AnimatedBox: React.FC<AnimatedBoxProps> = ({
+  delay = 1,
+  duration = 0.75,
 }) => {
-  const [isVisible, setIsVisible] = useState(true);
-  
-  // Initialize Glaze animation hook
-  const { play, styles } = useAnimation(animation, {
-    duration: 0.6,
-    ease: 'power2.inOut',
-  });
+  // Create a ref for the element we want to animate
+  const boxRef = useRef<HTMLDivElement>(null);
 
-  // Toggle animation
-  const toggleAnimation = () => {
-    setIsVisible(!isVisible);
-    play({ reverse: isVisible });
-  };
+  useEffect(() => {
+    // Make sure boxRef.current is not null
+    if (!boxRef.current) return;
+
+    // Store the animation in a variable so we can control it
+    const animation = gsap.fromTo(
+      boxRef.current,
+      // Starting properties
+      {
+        opacity: 0,
+        y: 100,
+        scale: 0.5,
+      },
+      // Ending properties
+      {
+        opacity: 1,
+        y: 25,
+        scale: 1,
+        duration: duration,
+        delay: delay,
+        ease: 'elastic.out', // GSAP easing function
+      }
+    );
+
+    // Cleanup function to kill animation when component unmounts
+    return () => {
+      animation.kill();
+    };
+  }, [delay, duration]); // Rerun effect if delay or duration changes
 
   return (
-    <div 
-      className={`relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm ${className}`}
-      style={styles}
+    <div
+      ref={boxRef}
+      className="flex h-32 w-64 items-center justify-center rounded-lg bg-red-600 font-bold text-white"
     >
-      <div className="mb-4">
-        {children}
-      </div>
-      <button
-        onClick={toggleAnimation}
-        className="mt-2 rounded bg-primary px-4 py-2 text-white transition-colors hover:bg-blue-700"
-      >
-        {isVisible ? 'Hide' : 'Show'}
-      </button>
+      Animated with GSAP
     </div>
   );
 };

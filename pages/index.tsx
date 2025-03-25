@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Button from '@/components/Button';
 import Card from '@/components/Card';
+import AnimatedBox from '@/components/AnimatedBox';
 
 export default function Home() {
   return (
@@ -60,6 +61,8 @@ export default function Home() {
             </Card>
           </div>
         </div>
+
+        <AnimatedBox />
       </main>
     </>
   );

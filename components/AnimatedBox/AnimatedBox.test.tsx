@@ -1,66 +1,80 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import React from 'react';
+import { render, screen, cleanup } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import AnimatedBox from './AnimatedBox';
+import { gsap } from 'gsap';
 
-// Mock the Glaze animation hook
-jest.mock('@glaze/react', () => ({
-  useAnimation: () => ({
-    play: jest.fn(),
-    styles: { opacity: 1 },
+// Mock GSAP to avoid actual animations in tests
+jest.mock('gsap', () => ({
+  gsap: {
+    fromTo: jest.fn().mockReturnValue({
+      kill: jest.fn(),
+    }),
+  },
+  fromTo: jest.fn().mockReturnValue({
+    kill: jest.fn(),
   }),
 }));
 
 describe('AnimatedBox', () => {
-  it('renders children content correctly', () => {
-    render(
-      <AnimatedBox>
-        <p>Test content</p>
-      </AnimatedBox>
-    );
-    
-    expect(screen.getByText('Test content')).toBeInTheDocument();
+  afterEach(() => {
+    cleanup();
+    jest.clearAllMocks();
   });
 
-  it('renders a toggle button with initial "Hide" text', () => {
-    render(<AnimatedBox>Content</AnimatedBox>);
-    
-    const button = screen.getByRole('button');
-    expect(button).toBeInTheDocument();
-    expect(button).toHaveTextContent('Hide');
+  it('renders correctly', () => {
+    render(<AnimatedBox />);
+    expect(screen.getByText('Animated with GSAP')).toBeInTheDocument();
   });
 
-  it('changes button text when clicked', () => {
-    render(<AnimatedBox>Content</AnimatedBox>);
-    
-    const button = screen.getByRole('button');
-    fireEvent.click(button);
-    
-    expect(button).toHaveTextContent('Show');
+  it('applies the correct CSS classes', () => {
+    render(<AnimatedBox />);
+    const box = screen.getByText('Animated with GSAP');
+    expect(box).toHaveClass('flex');
+    expect(box).toHaveClass('h-32');
+    expect(box).toHaveClass('w-64');
+    expect(box).toHaveClass('rounded-lg');
+    expect(box).toHaveClass('bg-red-600');
   });
 
-  it('applies additional classNames when provided', () => {
-    render(
-      <AnimatedBox className="custom-class">
-        Content
-      </AnimatedBox>
-    );
-    
-    const boxElement = screen.getByText('Content').closest('div');
-    expect(boxElement).toHaveClass('custom-class');
+  it('initializes GSAP animation with default props', () => {
+    render(<AnimatedBox />);
+
+    // Check if gsap.fromTo was called
+    expect(gsap.fromTo).toHaveBeenCalledTimes(1);
+
+    // Extract the call arguments to check animation settings
+    const callArgs = (gsap.fromTo as jest.Mock).mock.calls[0];
+
+    // Check animation properties
+    expect(callArgs[2].duration).toBe(0.75); // Default duration
+    expect(callArgs[2].delay).toBe(1); // Default delay
   });
 
-  it('toggles visibility state when button is clicked', () => {
-    render(<AnimatedBox>Content</AnimatedBox>);
-    
-    // Initially the state should be visible
-    const button = screen.getByRole('button');
-    expect(button).toHaveTextContent('Hide');
-    
-    // Click to hide
-    fireEvent.click(button);
-    expect(button).toHaveTextContent('Show');
-    
-    // Click to show again
-    fireEvent.click(button);
-    expect(button).toHaveTextContent('Hide');
+  it('uses custom props when provided', () => {
+    render(<AnimatedBox delay={2} duration={1.5} />);
+
+    // Check if gsap.fromTo was called
+    expect(gsap.fromTo).toHaveBeenCalledTimes(1);
+
+    // Extract the call arguments
+    const callArgs = (gsap.fromTo as jest.Mock).mock.calls[0];
+
+    // Check if custom values were used
+    expect(callArgs[2].duration).toBe(1.5);
+    expect(callArgs[2].delay).toBe(2);
+  });
+
+  it('cleans up animation on unmount', () => {
+    const { unmount } = render(<AnimatedBox />);
+
+    // Get the kill method from the mock
+    const killMethod = (gsap.fromTo as jest.Mock).mock.results[0].value.kill;
+
+    // Unmount the component
+    unmount();
+
+    // Check if kill was called
+    expect(killMethod).toHaveBeenCalledTimes(1);
   });
 });
