@@ -43,7 +43,7 @@ importers:
         version: 10.4.21(postcss@8.4.31)
       contentful-import:
         specifier: ^9.0.4
-        version: 9.4.93(eslint-plugin-import@2.31.0)(eslint-plugin-n@16.6.2(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1))
+        version: 9.4.94(eslint-plugin-import@2.31.0)(eslint-plugin-n@16.6.2(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1))
       date-fns:
         specifier: 2.30.0
         version: 2.30.0
@@ -2984,8 +2984,8 @@ packages:
     resolution: {integrity: sha512-nNAycOJIvo2arHbXIgsF1I8xXXJtnTooGJaHwfamFeuXbyp1q5NlNbHYGqWVR5vQjLJsuk48VExLbpa26T9C9g==}
     engines: {node: '>=18'}
 
-  contentful-import@9.4.93:
-    resolution: {integrity: sha512-plEYUi5ayCSkAD3m2+iRKqtkJf4HNMHK9sjyv5lG9pkt8aIYTwxuDYB7z8otqKtnbRP1y2VDKk+D+C+ECGRH8Q==}
+  contentful-import@9.4.94:
+    resolution: {integrity: sha512-p6sGJ4nbnyVYZkAeGe09s1Zd00zleqE9K3CXkPgGRR2bQ1Kszu4MCSnIe+skcZMHK7JlW3rgGT/nxyOyzsITRw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -9788,7 +9788,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  contentful-import@9.4.93(eslint-plugin-import@2.31.0)(eslint-plugin-n@16.6.2(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1)):
+  contentful-import@9.4.94(eslint-plugin-import@2.31.0)(eslint-plugin-n@16.6.2(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1)):
     dependencies:
       '@discoveryjs/json-ext': 0.6.3
       bluebird: 3.7.2
