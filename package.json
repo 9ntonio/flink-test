@@ -1,5 +1,5 @@
 {
-  "name": "Flinks-test",
+  "name": "flinks-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,25 +20,25 @@
     "@contentful/rich-text-react-renderer": "^15.17.1",
     "@contentful/rich-text-types": "^16.2.1",
     "@contentful/vercel-nextjs-toolkit": "latest",
+    "@million/lint": "^1.0.0",
     "@tailwindcss/typography": "0.5.16",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
     "@types/node": "^20.5.0",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "10.4.15",
     "contentful-import": "^9.0.4",
     "date-fns": "2.30.0",
-    "next": "latest",
-    "postcss": "8.4.31",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6",
-    "@million/lint": "^1.0.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
     "gsap": "^3.12.7",
     "million": "^2.6.4",
+    "next": "latest",
     "next-sitemap": "^4.2.3",
+    "postcss": "8.4.31",
     "react": "18.3.0",
-    "react-dom": "18.3.0"
+    "react-dom": "18.3.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3",
@@ -76,6 +76,13 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write"
+    ]
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js-pure",
+      "esbuild",
+      "sharp"
     ]
   }
 }
