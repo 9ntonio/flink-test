@@ -1,0 +1,14 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": true,
+  "testLibrary": "Jest",
+  "component": {
+    "default": {
+      "path": "components",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false
+    }
+  }
+}
