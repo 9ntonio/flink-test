@@ -17,7 +17,7 @@ A Next.js project with React, TypeScript, and Contentful CMS integration.
 
 ## Getting Started
 
-First, install dependencies ( Note: I recomend using [PNPM](https://pnpm.io/) ):
+First, install dependencies ( Note: I recommend using [PNPM](https://pnpm.io/) ):
 
 ```bash
 pnpm install
