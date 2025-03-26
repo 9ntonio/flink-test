@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { fn } from '@storybook/test';
 import { Card } from './Card';
 
 const meta: Meta<typeof Card> = {
@@ -49,7 +50,9 @@ export const WithImage: Story = {
 
 export const Clickable: Story = {
   args: {
-    onClick: () => alert('Card clicked!'),
+    onClick: fn(() => {
+      alert('Card clicked!');
+    }),
     children: (
       <div className="p-6">
         <h3 className="mb-2 text-xl font-bold">Clickable Card</h3>

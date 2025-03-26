@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { fn } from '@storybook/test';
 import { Button } from './Button';
 
 const meta: Meta<typeof Button> = {
@@ -13,6 +14,10 @@ const meta: Meta<typeof Button> = {
       control: { type: 'select' },
       options: ['primary', 'secondary'],
     },
+    onClick: {
+      type: 'function',
+      default: fn(),
+    },
   },
 };
 
@@ -21,6 +26,9 @@ type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
   args: {
+    onClick: fn(() => {
+      alert('Primary Button clicked!');
+    }),
     variant: 'primary',
     children: 'Primary Button',
   },
@@ -28,6 +36,9 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
+    onClick: fn(() => {
+      alert('Secondary Button clicked!');
+    }),
     variant: 'secondary',
     children: 'Secondary Button',
   },
