@@ -14,6 +14,7 @@ A Next.js project with React, TypeScript, and Contentful CMS integration.
 - Gsap v^3.12.7
 - Node v^22.0.0
 - Postcss v8.5.3
+- [generate-react-cli](https://www.npmjs.com/package/generate-react-cli) - Quickly builds a React Functional Component
 
 ## Getting Started
 
