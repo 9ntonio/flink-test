@@ -1,4 +1,4 @@
-# Flink Test
+# Flinks Test
 
 A Next.js project with React, TypeScript, and Contentful CMS integration.
 
@@ -28,7 +28,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 
 ## Available Scripts
 

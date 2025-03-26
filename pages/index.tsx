@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Flink Test</title>
+        <title>Flinks Test</title>
         <meta name="description" content="Next.js with Contentful CMS" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-center p-4">
         <div className="container mx-auto max-w-4xl">
           <h1 className="mb-8 text-center text-4xl font-bold tracking-tight text-primary">
-            Welcome to Flink Test
+            Welcome to Flinks Test
           </h1>
           <p className="mb-8 text-center text-lg">
             A Next.js project with Contentful CMS integration
