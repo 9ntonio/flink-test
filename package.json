@@ -59,7 +59,7 @@
     "autoprefixer": "^10.4.18",
     "contentful-typescript-codegen": "^3.4.0",
     "dotenv": "^16.4.5",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "14.2.26",
     "eslint-plugin-storybook": "^0.12.0",
     "husky": "^9.1.7",
