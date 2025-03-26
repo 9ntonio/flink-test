@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@contentful/rich-text-react-renderer':
         specifier: ^15.17.1
-        version: 15.22.11(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+        version: 15.22.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@contentful/rich-text-types':
         specifier: ^16.2.1
         version: 16.8.5
       '@contentful/vercel-nextjs-toolkit':
         specifier: latest
-        version: 1.4.1(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))
+        version: 1.4.1(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@million/lint':
         specifier: ^1.0.0
         version: 1.0.14(rollup@4.37.0)
@@ -28,7 +28,7 @@ importers:
         version: 6.6.3
       '@testing-library/react':
         specifier: ^16.2.0
-        version: 16.2.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.20))(@types/react@18.3.20)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+        version: 16.2.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.20))(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: ^22.0.0
         version: 22.13.13
@@ -55,19 +55,19 @@ importers:
         version: 2.6.4
       next:
         specifier: latest
-        version: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+        version: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-sitemap:
         specifier: ^4.2.3
-        version: 4.2.3(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))
+        version: 4.2.3(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       postcss:
         specifier: 8.4.31
         version: 8.4.31
       react:
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 18.3.1
+        version: 18.3.1
       react-dom:
-        specifier: 18.3.0
-        version: 18.3.0(react@18.3.0)
+        specifier: 18.3.1
+        version: 18.3.1(react@18.3.1)
       tailwindcss:
         specifier: ^3.3.3
         version: 3.4.17
@@ -77,7 +77,7 @@ importers:
     devDependencies:
       '@chromatic-com/storybook':
         specifier: ^3
-        version: 3.2.6(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))
+        version: 3.2.6(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))
       '@storybook/addon-essentials':
         specifier: ^8.6.9
         version: 8.6.9(@types/react@18.3.20)(storybook@8.6.9(prettier@3.5.3))
@@ -86,16 +86,16 @@ importers:
         version: 8.6.9(storybook@8.6.9(prettier@3.5.3))
       '@storybook/addon-links':
         specifier: ^8.6.9
-        version: 8.6.9(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))
+        version: 8.6.9(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))
       '@storybook/blocks':
         specifier: ^8.6.9
-        version: 8.6.9(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))
+        version: 8.6.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))
       '@storybook/nextjs':
         specifier: ^8.6.9
-        version: 8.6.9(esbuild@0.21.5)(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(type-fest@4.38.0)(typescript@5.3.3)(webpack-hot-middleware@2.26.1)(webpack@5.98.0(esbuild@0.21.5))
+        version: 8.6.9(esbuild@0.21.5)(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(type-fest@4.38.0)(typescript@5.3.3)(webpack-hot-middleware@2.26.1)(webpack@5.98.0(esbuild@0.21.5))
       '@storybook/react':
         specifier: ^8.6.9
-        version: 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
+        version: 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
       '@storybook/test':
         specifier: ^8.6.9
         version: 8.6.9(storybook@8.6.9(prettier@3.5.3))
@@ -5533,10 +5533,10 @@ packages:
     resolution: {integrity: sha512-hlSJDQ2synMPKFZOsKo9Hi8WWZTC7POR8EmWvTSjow+VDgKzkmjQvFm2fk0tmRw+f0vTOIYKlarR0iL4996pdg==}
     engines: {node: '>=16.14.0'}
 
-  react-dom@18.3.0:
-    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
+  react-dom@18.3.1:
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.3.0
+      react: ^18.3.1
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -5555,8 +5555,8 @@ packages:
     resolution: {integrity: sha512-reHgQnASWVXwHe0Ibk/EbsEPZhKrmNRf8EUNDmjMi1lzXec+Cj9litKxD0TG2ghAwg5V4sT0wzhiOgZSIefeVg==}
     hasBin: true
 
-  react@18.3.0:
-    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
+  react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -7481,12 +7481,12 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@chromatic-com/storybook@3.2.6(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))':
+  '@chromatic-com/storybook@3.2.6(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
       chromatic: 11.27.0
       filesize: 10.1.6
       jsonfile: 6.1.0
-      react-confetti: 6.4.0(react@18.3.0)
+      react-confetti: 6.4.0(react@18.3.1)
       storybook: 8.6.9(prettier@3.5.3)
       strip-ansi: 7.1.0
     transitivePeerDependencies:
@@ -7514,17 +7514,17 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@contentful/rich-text-react-renderer@15.22.11(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@contentful/rich-text-react-renderer@15.22.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@contentful/rich-text-types': 16.8.5
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   '@contentful/rich-text-types@16.8.5': {}
 
-  '@contentful/vercel-nextjs-toolkit@1.4.1(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))':
+  '@contentful/vercel-nextjs-toolkit@1.4.1(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
-      next: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      next: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   '@corex/deepmerge@4.0.43': {}
 
@@ -8007,11 +8007,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mdx-js/react@3.1.0(@types/react@18.3.20)(react@18.3.0)':
+  '@mdx-js/react@3.1.0(@types/react@18.3.20)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.13
       '@types/react': 18.3.20
-      react: 18.3.0
+      react: 18.3.1
 
   '@million/install@1.0.14':
     dependencies:
@@ -8347,12 +8347,12 @@ snapshots:
 
   '@storybook/addon-docs@8.6.9(@types/react@18.3.20)(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
-      '@mdx-js/react': 3.1.0(@types/react@18.3.20)(react@18.3.0)
-      '@storybook/blocks': 8.6.9(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))
+      '@mdx-js/react': 3.1.0(@types/react@18.3.20)(react@18.3.1)
+      '@storybook/blocks': 8.6.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))
       '@storybook/csf-plugin': 8.6.9(storybook@8.6.9(prettier@3.5.3))
-      '@storybook/react-dom-shim': 8.6.9(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@storybook/react-dom-shim': 8.6.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       storybook: 8.6.9(prettier@3.5.3)
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -8388,13 +8388,13 @@ snapshots:
       storybook: 8.6.9(prettier@3.5.3)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-links@8.6.9(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))':
+  '@storybook/addon-links@8.6.9(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
       '@storybook/global': 5.0.0
       storybook: 8.6.9(prettier@3.5.3)
       ts-dedent: 2.2.0
     optionalDependencies:
-      react: 18.3.0
+      react: 18.3.1
 
   '@storybook/addon-measure@8.6.9(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
@@ -8417,14 +8417,14 @@ snapshots:
       memoizerific: 1.11.3
       storybook: 8.6.9(prettier@3.5.3)
 
-  '@storybook/blocks@8.6.9(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))':
+  '@storybook/blocks@8.6.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
-      '@storybook/icons': 1.4.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@storybook/icons': 1.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       storybook: 8.6.9(prettier@3.5.3)
       ts-dedent: 2.2.0
     optionalDependencies:
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   '@storybook/builder-webpack5@8.6.9(esbuild@0.21.5)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)':
     dependencies:
@@ -8503,10 +8503,10 @@ snapshots:
 
   '@storybook/global@5.0.0': {}
 
-  '@storybook/icons@1.4.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@storybook/icons@1.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   '@storybook/instrumenter@8.6.9(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
@@ -8518,7 +8518,7 @@ snapshots:
     dependencies:
       storybook: 8.6.9(prettier@3.5.3)
 
-  '@storybook/nextjs@8.6.9(esbuild@0.21.5)(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(type-fest@4.38.0)(typescript@5.3.3)(webpack-hot-middleware@2.26.1)(webpack@5.98.0(esbuild@0.21.5))':
+  '@storybook/nextjs@8.6.9(esbuild@0.21.5)(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(type-fest@4.38.0)(typescript@5.3.3)(webpack-hot-middleware@2.26.1)(webpack@5.98.0(esbuild@0.21.5))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-syntax-bigint': 7.8.3(@babel/core@7.26.10)
@@ -8535,8 +8535,8 @@ snapshots:
       '@babel/runtime': 7.27.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.14.2)(type-fest@4.38.0)(webpack-hot-middleware@2.26.1)(webpack@5.98.0(esbuild@0.21.5))
       '@storybook/builder-webpack5': 8.6.9(esbuild@0.21.5)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
-      '@storybook/preset-react-webpack': 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(esbuild@0.21.5)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
-      '@storybook/react': 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
+      '@storybook/preset-react-webpack': 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(esbuild@0.21.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
+      '@storybook/react': 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
       '@storybook/test': 8.6.9(storybook@8.6.9(prettier@3.5.3))
       '@types/semver': 7.5.8
       babel-loader: 9.2.1(@babel/core@7.26.10)(webpack@5.98.0(esbuild@0.21.5))
@@ -8544,20 +8544,20 @@ snapshots:
       find-up: 5.0.0
       image-size: 1.2.0
       loader-utils: 3.3.1
-      next: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      next: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       node-polyfill-webpack-plugin: 2.0.1(webpack@5.98.0(esbuild@0.21.5))
       pnp-webpack-plugin: 1.7.0(typescript@5.3.3)
       postcss: 8.5.3
       postcss-loader: 8.1.1(postcss@8.5.3)(typescript@5.3.3)(webpack@5.98.0(esbuild@0.21.5))
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       react-refresh: 0.14.2
       resolve-url-loader: 5.0.0
       sass-loader: 14.2.1(webpack@5.98.0(esbuild@0.21.5))
       semver: 7.7.1
       storybook: 8.6.9(prettier@3.5.3)
       style-loader: 3.3.4(webpack@5.98.0(esbuild@0.21.5))
-      styled-jsx: 5.1.6(@babel/core@7.26.10)(react@18.3.0)
+      styled-jsx: 5.1.6(@babel/core@7.26.10)(react@18.3.1)
       ts-dedent: 2.2.0
       tsconfig-paths: 4.2.0
       tsconfig-paths-webpack-plugin: 4.2.0
@@ -8583,17 +8583,17 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@storybook/preset-react-webpack@8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(esbuild@0.21.5)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)':
+  '@storybook/preset-react-webpack@8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(esbuild@0.21.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)':
     dependencies:
       '@storybook/core-webpack': 8.6.9(storybook@8.6.9(prettier@3.5.3))
-      '@storybook/react': 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
+      '@storybook/react': 8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)
       '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.3.3)(webpack@5.98.0(esbuild@0.21.5))
       '@types/semver': 7.5.8
       find-up: 5.0.0
       magic-string: 0.30.17
-      react: 18.3.0
+      react: 18.3.1
       react-docgen: 7.1.1
-      react-dom: 18.3.0(react@18.3.0)
+      react-dom: 18.3.1(react@18.3.1)
       resolve: 1.22.10
       semver: 7.7.1
       storybook: 8.6.9(prettier@3.5.3)
@@ -8627,22 +8627,22 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@storybook/react-dom-shim@8.6.9(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))':
+  '@storybook/react-dom-shim@8.6.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))':
     dependencies:
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       storybook: 8.6.9(prettier@3.5.3)
 
-  '@storybook/react@8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)':
+  '@storybook/react@8.6.9(@storybook/test@8.6.9(storybook@8.6.9(prettier@3.5.3)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))(typescript@5.3.3)':
     dependencies:
       '@storybook/components': 8.6.9(storybook@8.6.9(prettier@3.5.3))
       '@storybook/global': 5.0.0
       '@storybook/manager-api': 8.6.9(storybook@8.6.9(prettier@3.5.3))
       '@storybook/preview-api': 8.6.9(storybook@8.6.9(prettier@3.5.3))
-      '@storybook/react-dom-shim': 8.6.9(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(storybook@8.6.9(prettier@3.5.3))
+      '@storybook/react-dom-shim': 8.6.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.9(prettier@3.5.3))
       '@storybook/theming': 8.6.9(storybook@8.6.9(prettier@3.5.3))
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       storybook: 8.6.9(prettier@3.5.3)
     optionalDependencies:
       '@storybook/test': 8.6.9(storybook@8.6.9(prettier@3.5.3))
@@ -8708,12 +8708,12 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
 
-  '@testing-library/react@16.2.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.20))(@types/react@18.3.20)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@testing-library/react@16.2.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.20))(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.27.0
       '@testing-library/dom': 10.4.0
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     optionalDependencies:
       '@types/react': 18.3.20
       '@types/react-dom': 18.3.5(@types/react@18.3.20)
@@ -12250,15 +12250,15 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-sitemap@4.2.3(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)):
+  next-sitemap@4.2.3(next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
       '@corex/deepmerge': 4.0.43
       '@next/env': 13.5.10
       fast-glob: 3.3.3
       minimist: 1.2.8
-      next: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      next: 15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.0(react@18.3.0))(react@18.3.0):
+  next@15.2.4(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 15.2.4
       '@swc/counter': 0.1.3
@@ -12266,9 +12266,9 @@ snapshots:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001707
       postcss: 8.4.31
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
-      styled-jsx: 5.1.6(@babel/core@7.26.10)(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      styled-jsx: 5.1.6(@babel/core@7.26.10)(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.2.4
       '@next/swc-darwin-x64': 15.2.4
@@ -12807,9 +12807,9 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  react-confetti@6.4.0(react@18.3.0):
+  react-confetti@6.4.0(react@18.3.1):
     dependencies:
-      react: 18.3.0
+      react: 18.3.1
       tween-functions: 1.2.0
 
   react-docgen-typescript@2.2.2(typescript@5.3.3):
@@ -12831,10 +12831,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-dom@18.3.0(react@18.3.0):
+  react-dom@18.3.1(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.3.0
+      react: 18.3.1
       scheduler: 0.23.2
 
   react-is@16.13.1: {}
@@ -12853,7 +12853,7 @@ snapshots:
       mri: 1.2.0
       playwright: 1.51.1
 
-  react@18.3.0:
+  react@18.3.1:
     dependencies:
       loose-envify: 1.4.0
 
@@ -13542,10 +13542,10 @@ snapshots:
     dependencies:
       webpack: 5.98.0(esbuild@0.21.5)
 
-  styled-jsx@5.1.6(@babel/core@7.26.10)(react@18.3.0):
+  styled-jsx@5.1.6(@babel/core@7.26.10)(react@18.3.1):
     dependencies:
       client-only: 0.0.1
-      react: 18.3.0
+      react: 18.3.1
     optionalDependencies:
       '@babel/core': 7.26.10
 
