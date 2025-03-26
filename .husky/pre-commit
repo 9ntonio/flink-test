@@ -1,1 +1,3 @@
-npm test
+echo "Running tests before commiting..."
+pnpm test
+
