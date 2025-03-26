@@ -4,11 +4,11 @@ import Button from '@/components/Button';
 import Card from '@/components/Card';
 import AnimatedBox from '@/components/AnimatedBox';
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Flinks Test</title>
+        <title>Flinks About Page</title>
         <meta name="description" content="Next.js with Contentful CMS" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-center p-4">
         <div className="container mx-auto max-w-4xl">
           <h1 className="mb-8 text-center text-4xl font-bold tracking-tight text-primary">
-            Welcome to Flinks Index Page
+            Welcome to Flinks About Page
           </h1>
 
           <p className="mb-8 text-center text-lg">
@@ -25,10 +25,10 @@ export default function Home() {
           </p>
 
           <Link
-            href="/about"
+            href="/"
             className="mb-8 flex justify-center rounded bg-red-600 px-4 py-2 font-medium text-white transition-colors duration-300 hover:bg-red-500"
           >
-            About Page
+            Home Page
           </Link>
 
           <div className="mb-8 flex justify-center gap-4">
@@ -38,7 +38,6 @@ export default function Home() {
             >
               Primary Button
             </Button>
-
             <Button
               variant="secondary"
               onClick={() => alert('Secondary button clicked!')}

@@ -1,1 +1,19 @@
-{\n  \"framework\": \"nextjs\",\n  \"buildCommand\": \"pnpm build\",\n  \"devCommand\": \"pnpm dev\",\n  \"installCommand\": \"pnpm install\",\n  \"outputDirectory\": \".next\",\n  \"git\": {\n    \"deploymentEnabled\": {\n      \"main\": true\n    }\n  },\n  \"env\": {\n    \"CONTENTFUL_SPACE_ID\": \"@contentful_space_id\",\n    \"CONTENTFUL_ACCESS_TOKEN\": \"@contentful_access_token\",\n    \"CONTENTFUL_PREVIEW_ACCESS_TOKEN\": \"@contentful_preview_access_token\",\n    \"CONTENTFUL_PREVIEW_SECRET\": \"@contentful_preview_secret\",\n    \"CONTENTFUL_ENVIRONMENT\": \"@contentful_environment\"\n  }\n}
+{
+  "framework": "nextjs",
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "outputDirectory": ".next",
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "env": {
+    "CONTENTFUL_SPACE_ID": "@contentful_space_id",
+    "CONTENTFUL_ACCESS_TOKEN": "@contentful_access_token",
+    "CONTENTFUL_PREVIEW_ACCESS_TOKEN": "@contentful_preview_access_token",
+    "CONTENTFUL_PREVIEW_SECRET": "@contentful_preview_secret",
+    "CONTENTFUL_ENVIRONMENT": "@contentful_environment"
+  }
+}
