@@ -4,18 +4,20 @@ A Next.js project with React, TypeScript, and Contentful CMS integration.
 
 ## Features
 
-- Next.js v14.1.0
-- React v18.3.0
-- TypeScript v5.3.3
-- Contentful CMS integration
-- TailwindCSS v3.4.1
-- Storybook for component development
-- Jest for testing
-- Million.js for performance optimization
+- Next.js @latest
+- React/React DOM v18.3.1
+- TypeScript v5.8.2
+- TailwindCSS v3.4.17
+- Storybook v^8.6.9
+- Jest v^29.7.0
+- Million.js v^2.6.4
+- Gsap v^3.12.7
+- Node v^22.0.0
+- Postcss v8.4.31
 
 ## Getting Started
 
-First, install dependencies:
+First, install dependencies ( Note: I recomend using [PNPM](https://pnpm.io/) ):
 
 ```bash
 pnpm install
