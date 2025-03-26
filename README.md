@@ -13,7 +13,7 @@ A Next.js project with React, TypeScript, and Contentful CMS integration.
 - Million.js v^2.6.4
 - Gsap v^3.12.7
 - Node v^22.0.0
-- Postcss v8.4.31
+- Postcss v8.5.3
 
 ## Getting Started
 
