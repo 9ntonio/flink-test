@@ -6,8 +6,8 @@
     "default": {
       "path": "components",
       "withStyle": false,
-      "withTest": true,
-      "withStory": true,
+      "withTest": false,
+      "withStory": false,
       "withLazy": false
     }
   }
