@@ -1,3 +1,6 @@
 
 echo "Running lint checks before pushing..."
 pnpm lint
+
+echo "Running tests before pushing..."
+pnpm test
