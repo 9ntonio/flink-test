@@ -29,7 +29,7 @@
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "10.4.21",
     "contentful-import": "^9.0.4",
-    "date-fns": "2.30.0",
+    "date-fns": "4.1.0",
     "generate-react-cli": "^8.4.9",
     "gsap": "^3.12.7",
     "million": "^2.6.4",
