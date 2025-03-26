@@ -1,7 +1,7 @@
 {
   "usesTypeScript": true,
   "usesStyledComponents": true,
-  "testLibrary": "Jest",
+  "testLibrary": "Testing Library",
   "component": {
     "default": {
       "path": "components",
